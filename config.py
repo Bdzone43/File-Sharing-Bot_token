@@ -36,12 +36,6 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-# Url Shortner Information 
-TECH_VJ = bool(environ.get('TECH_VJ', True)) # Set False If you want shortlink off else True
-TECH_VJ_URL = environ.get('TECH_VJ_URL', 'indianshortner.com') # your shortlink url domain or url without https://
-TECH_VJ_API = environ.get('TECH_VJ_API', '525f4e99b2934554ea60ac4223cafc8bc30fadc1') # your url shortner api
-TECH_VJ_TUTORIAL = os.environ.get("TECH_VJ_TUTORIAL", "https://t.me/How_To_Open_Linkl")
-
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
